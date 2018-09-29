@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Ìåòîäû äëÿ ðàáîòû ñ êëàññèôèêàöèåé</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZATM_COMMON</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>BAPI_GET_VALUES</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå çíà÷åíèé àòðèáóòîâ êëàññà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>BAPI_SET_VALUES</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ñîõðàíåíèå çíà÷åíèé àòðèáóòîâ êëàññà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ñîçäàíèå êëàññà îáúåêòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ñîçäàíèå êëàññà îáúåêòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>DUMMY</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ôèêòèâíàÿ ôóíêöèÿ äëèíû 1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>FILL_ATTR_VALUE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå çíà÷åíèÿ àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_ATTR_DESCR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå íàçâàíèå àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_ATTR_ID</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå âíóòðåííåãî êîäà àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_ATTR_NAME</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå íàèìåíîâàíèÿ àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_ATTR_TEXT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå îïèñàíèÿ àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_ATTR_TYPE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå òèïà àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_ATTR_VALUE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå çíà÷åíèÿ àòðèáóòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_BUFFERED_AUSP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå çíà÷åíèé àòðèáóòîâ äëÿ îáúåêòà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_BUFFERED_VALUES</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå çíà÷åíèé èç áóôåðà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>GET_VALUE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîëó÷åíèå çíà÷åíèÿ àòðèáóòà êëàññà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>MAP_VALUE2AUSP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ìàïïèíã çíà÷åíèÿ â ñòðóêòóðó AUSP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>MAP_VALUES2AUSP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ìàïïèíã çíà÷åíèé â òàáëèöó AUSP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïîèñê îáúåêòîâ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>SET_VALUE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ñîõðàíåíèå çíà÷åíèé àòðèáóòîâ êëàññà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>SET_VALUES</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ñîõðàíåíèå çíà÷åíèé àòðèáóòîâ êëàññà</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLASS_STATIC</CLSNAME>
+     <CMPNAME>WAS_CREATED</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ïðîâåðêà íà ñîçäàíèå êëàññà ó îáúåêòà</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
